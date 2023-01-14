@@ -1,0 +1,37 @@
+.app__laurel {
+    display: flex;
+    margin-right: 2rem;
+    margin-bottom: 4rem;
+}
+
+.app_laurel-img {
+    width: 79px;
+    /* height: 79px; */
+    margin-right: 2rem;
+}
+
+.app_laurel-img img {
+    width: 100%;
+    /* height: 100%; */
+}
+
+.app__laurel-content {}
+
+.app__laurel-content h4 {
+    font-family: var(--font-base);
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: var(--color-golden);
+    margin-bottom: 0.5rem;
+}
+
+.app__laurel-content p {
+    font-family: var(--font-alt);
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: var(--color-grey);
+    max-width: 190px;
+}

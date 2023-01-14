@@ -1,0 +1,47 @@
+.app__menuitem {
+    margin-bottom: 2.5rem;
+}
+
+.app__menuitem-content {
+    display: flex;
+    margin-bottom: 0.5rem;
+    align-items: center;
+}
+
+.app__menuitem-content_title {
+    font-family: var(--font-base);
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: var(--color-golden);
+    margin-right: 2rem;
+    width: 192px;
+}
+
+.app__menuitem-content_line {
+    width: 119px;
+    height: 1px;
+    background: #FAFAFA;
+    margin-right: 2rem;
+}
+
+.app__menuitem-content_price {
+    font-family: var(--font-base);
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: var(--color-white);
+}
+
+.app__menuitem_tags {
+    font-family: var(--font-alt);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: var(--color-grey);
+}
